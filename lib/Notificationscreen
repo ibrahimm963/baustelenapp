@@ -1,0 +1,162 @@
+import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
+
+class NotificationScreen extends StatelessWidget {
+  const NotificationScreen({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        backgroundColor: Color.fromARGB(211, 179, 138, 109),
+        title: Text("Notifications",
+        style: TextStyle(
+          fontSize: 24, fontWeight: FontWeight.w600,
+        ),),
+        centerTitle: true,
+        leading: Icon(Icons.account_circle, size: 40,),
+        actions: [
+          IconButton(onPressed: () {}, icon: Icon(
+            Icons.more_vert_outlined, size: 30, color: Colors.black,
+          ))
+        ],
+      ),
+      body: ListView(
+        children: [
+          Container(
+            height: 100, color: Colors.white,
+            child: ListTile(
+              leading: Icon(Icons.account_circle, size: 80, color: Color.fromARGB(211, 179, 138, 109),),
+              title: Text("Titel der Nachricht",
+              style: TextStyle(
+                fontSize: 18, fontWeight: FontWeight.bold
+              ),),
+              subtitle: Text("Hier kannst du die weitere Inhalte der Nachricht sehen!",
+              style: TextStyle(
+                fontSize: 16, fontWeight: FontWeight.w700
+              ),),
+              trailing: Column(
+                children: [
+                  Text("Datum",
+                  style: TextStyle(
+                    fontSize: 14
+                  ),),
+                  Spacer(),
+                  Icon(CupertinoIcons.xmark,),
+                ],
+              ),
+            ),
+          ),
+          Container(
+            height: 1, color: Colors.black,
+          ),
+          Container(
+            height: 100, color: Colors.white,
+            child: ListTile(
+              leading: Icon(Icons.account_circle, size: 80, color: Color.fromARGB(211, 179, 138, 109),),
+              title: Text("Titel der Nachricht",
+                style: TextStyle(
+                    fontSize: 18, fontWeight: FontWeight.bold
+                ),),
+              subtitle: Text("Hier kannst du die weitere Inhalte der Nachricht sehen!",
+                style: TextStyle(
+                    fontSize: 16, fontWeight: FontWeight.w700
+                ),),
+              trailing: Column(
+                children: [
+                  Text("Datum",
+                    style: TextStyle(
+                        fontSize: 14
+                    ),),
+                  Spacer(),
+                  Icon(CupertinoIcons.xmark,),
+                ],
+              ),
+            ),
+          ),
+          Container(
+            height: 1, color: Colors.black,
+          ),
+          Container(
+            height: 100, color: Colors.white,
+            child: ListTile(
+              leading: Icon(Icons.account_circle, size: 80, color: Color.fromARGB(211, 179, 138, 109),),
+              title: Text("Titel der Nachricht",
+                style: TextStyle(
+                    fontSize: 18, fontWeight: FontWeight.bold
+                ),),
+              subtitle: Text("Hier kannst du die weitere Inhalte der Nachricht sehen!",
+                style: TextStyle(
+                    fontSize: 16, fontWeight: FontWeight.w700
+                ),),
+              trailing: Column(
+                children: [
+                  Text("Datum",
+                    style: TextStyle(
+                        fontSize: 14
+                    ),),
+                  Spacer(),
+                  Icon(CupertinoIcons.xmark,),
+                ],
+              ),
+            ),
+          ),
+          Container(
+            height: 1, color: Colors.black,
+          ),
+          Container(
+            height: 100, color: Colors.white,
+            child: ListTile(
+              leading: Icon(Icons.account_circle, size: 80, color: Color.fromARGB(211, 179, 138, 109),),
+              title: Text("Titel der Nachricht",
+                style: TextStyle(
+                    fontSize: 18, fontWeight: FontWeight.bold
+                ),),
+              subtitle: Text("Hier kannst du die weitere Inhalte der Nachricht sehen!",
+                style: TextStyle(
+                    fontSize: 16, fontWeight: FontWeight.w700
+                ),),
+              trailing: Column(
+                children: [
+                  Text("Datum",
+                    style: TextStyle(
+                        fontSize: 14
+                    ),),
+                  Spacer(),
+                  Icon(CupertinoIcons.xmark,),
+                ],
+              ),
+            ),
+          ),
+          Container(
+            height: 1, color: Colors.black,
+          ),
+          Container(
+            height: 100, color: Colors.white,
+            child: ListTile(
+              leading: Icon(Icons.account_circle, size: 80, color: Color.fromARGB(211, 179, 138, 109),),
+              title: Text("Titel der Nachricht",
+                style: TextStyle(
+                    fontSize: 18, fontWeight: FontWeight.bold
+                ),),
+              subtitle: Text("Hier kannst du die weitere Inhalte der Nachricht sehen!",
+                style: TextStyle(
+                    fontSize: 16, fontWeight: FontWeight.w700
+                ),),
+              trailing: Column(
+                children: [
+                  Text("Datum",
+                    style: TextStyle(
+                        fontSize: 14
+                    ),),
+                  Spacer(),
+                  Icon(CupertinoIcons.xmark,),
+                ],
+              ),
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+}
